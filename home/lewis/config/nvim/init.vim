@@ -1,3 +1,4 @@
+" This is my vim config. There are many like it, but this one is mine.
 set number relativenumber
 
 call plug#begin()
