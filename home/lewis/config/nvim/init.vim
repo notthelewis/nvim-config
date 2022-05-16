@@ -1,4 +1,3 @@
-" If there's a vimrc inside current dir, read it
 set exrc
 
 " Gets rid of that pesky highlighting on searched terms
@@ -93,6 +92,9 @@ call plug#begin()
 
 
 colorscheme gruvbox
+
+" Fixes the indentation on files... extremely useful!
+map <F7> gg=G<C-o><C-o>
 
 
 let mapleader = " "
